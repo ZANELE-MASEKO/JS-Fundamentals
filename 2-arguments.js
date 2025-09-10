@@ -1,11 +1,11 @@
-const num= [1,2,3,4,5];
+const num= [];
 
 if (num.length ==0) {
     console.log("No argument");
 }
-else if (num==1) {
+else if (num.length==1) {
     console.log("Argument found");
 }
 else {
-    console.log("Argument found");
+    console.log("Arguments found");
 }
