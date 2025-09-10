@@ -1,12 +1,9 @@
-const number= process.argv[2];
-const total = parseFloat(number);
+let number = parseFloat(process.argv[2]);
 
-if (total ==NaN) {
-    console.log('Not a number');
+if (number >0 ) {
+    console.log(`My number is: ${Math.floor(number)}`);
 }
-else if (typeof total !== 'string') {
-    console.log('Not a number');
-}
+
 else {
-    console.log(total);
+    console.log('Not a number')
 }
