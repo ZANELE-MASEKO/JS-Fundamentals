@@ -1,5 +1,4 @@
-function concatination(first_word, second_word) {
-    console.log(first_word + " is " + second_word) 
-}
+let arg1 = process.argv[2];
+let arg2 = process.argv[3];
 
-concatination();
+console.log(`${arg1} is ${arg2}`);
