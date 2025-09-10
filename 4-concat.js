@@ -1,5 +1,4 @@
-function concatination(first_word, second_word) {
-    console.log(first_word + " is " + second_word) 
-}
+const first_word= 'zanele';
+const second_word='cool';
 
-concatination('zanele', 'cool')
+console.log(first_word + ' is ' + second_word);
