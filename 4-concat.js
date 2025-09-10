@@ -1,4 +1,4 @@
-const first_word= 'zanele';
-const second_word='cool';
+const first_word= '';
+const second_word='';
 
 console.log(first_word + ' is ' + second_word);
